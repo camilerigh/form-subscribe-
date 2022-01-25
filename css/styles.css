@@ -1,0 +1,134 @@
+/* COLORS: #F1C701 - YELLOW 
+           #FFFFFF - WHITE 
+           FONT TITTLE: font-family: 'Open Sans', sans-serif;
+           FONT WEIGHT TITTLE- 14PX */
+
+
+ *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+
+ body{
+     background: #F6F8FA;
+ }
+ 
+ .container{
+     display: flex;
+     box-shadow: 0 0 0.4em black;
+     margin: 10rem 10rem 10rem 10rem;
+     width: 70%;
+     height: 40%;
+ }
+
+ .content{
+     /*background-color: red;*/
+     width: 80%;
+     height: 40rem;
+     border-radius: 1%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     
+    }
+    .content-inside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     /*  background: chartreuse;*/
+       width: 100%;
+       height: 70%;
+    }
+       
+ h1{
+     font-size: 24px;
+     font-family: 'Open Sans', sans-serif;
+     margin-bottom: 50px;
+     color: #F1C701;
+     
+ }.icons{
+     /*background: cornflowerblue;*/
+     height: 15%;
+     width: 50%;
+     margin-bottom: 10px;
+ }
+.icons img{
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+a{
+ color: #F6F8FA;
+}
+      p{
+      font-size: 17px; 
+      margin: 0.5rem;
+      font-family: 'Open Sans', sans-serif;
+      display: inline-block;
+      }
+
+
+      .input-group{
+          display: flex;
+          flex-direction: column;
+          border-radius: 5%;
+      }
+      input{
+          padding: 14px;
+          padding-left: 20px;
+          padding-right: 20px;
+          border-width: 1px;
+          border-radius: 5px;
+          border-color: #DDE6EA;
+          border-style:solid;
+          margin: 4px;
+          width: 100%;
+          background: #F6F8FA;
+          color: #00000;
+        
+      }
+      input::placeholder{
+          color: #DDE6EA;
+      }
+      
+      input[type="checkbox"]{
+      width: 40px;
+      padding: 0;
+      margin: 0; 
+      }
+       strong{
+           color: #F1C701;
+       }
+      
+
+
+
+      input[type="submit"]{
+          background: #F1C701;
+          padding: 10px;
+          width: 50%;
+          margin-top: 10%;
+          margin-left: 24%;
+      }
+      input[type="submit"]:hover{
+          background-color: #ffff;
+          color: black;
+      }
+
+ .content-image{
+     width: 60%;
+     height: 40rem;
+     background-color: blue;
+     border-radius: 1%;
+ }
+ .aside{
+     width: 120%;
+     height: 100%;
+     border-radius: 1%;
+     
+  
+ }
